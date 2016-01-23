@@ -1,0 +1,210 @@
+*,*:after,*:before{
+  box-sizing: border-box;
+  font-family: Arial,serif, sans-serif;
+  margin: 0;
+  padding: 0
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.max-width-960{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+hr{
+  margin: 80px 0;
+  border: 1px solid #e3e3e3;
+}
+.main-padding{
+  padding: 10px 35px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.font-20{
+  font-size: 20px;
+}
+.color-fade{
+  color: #777;
+}
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+.text-color{
+  color: #575555;
+}
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+/*Header Section*/
+header {
+    margin: 20px 0;
+}
+header h1 {
+    font-size: 55px !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 35px 0 0 15px;
+    color: #6e6e6e;
+    text-shadow: 1px 1px 2px RGBA(0, 0, 0, 0.42);
+}
+/*Menus Section*/
+.menu{
+    background-color: #ed145b;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: inline-block;
+    background-color: #ed145b;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px RGBA(0, 0, 0, 0.43);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-left: -5px;
+}
+.menu ul li a.active{
+  background-color: #80082f;
+  color: #eee;
+}
+.menu ul li a:hover {
+    background-color: #80082f;
+    color: #eee;
+}
+/*Banner Section*/
+.banner {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 60px;
+}
+.banner-solar {
+    background-image: url('../img/solar-bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 60px;
+}
+.banner-galaxy {
+    background-image: url('../img/galaxy.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 60px;
+}
+.banner p {
+    color: #eee;
+    display: inline-block;
+    margin: 55px 0 0 15px;
+    vertical-align: top;
+    font-size: 21px;
+    background-color: rgba(255, 255, 255, 0.27);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.about {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+    color: #4A4949;
+}
+.about img {
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #4d4b4b;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+.product-img{
+  width: 210px;
+}
+.description{
+  width: 750px;
+}
+
+
+
+.about-solar {
+  margin: 50px 0;
+}
+.about-solar h1,
+.about-galaxy h1,
+.types h2 {
+  color: #575555;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+}
+.about-solar p,
+.about-galaxy p,
+.types p {
+  color: #383838;
+}
+
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 5px;
+}
+table thead {
+  background-color: #ccc;
+}
+table thead tr th {
+  padding: 10px 15px;
+}
+table tbody tr td {
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  font-size: 12px;
+  padding: 10px 15px;
+}
+
+
+.about-galaxy {
+    margin: 40px 0 20px 0;
+}
+.types img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.types {
+    margin: 30px 0;
+}
+/*Footer section */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    margin-top: 90px;
+}
