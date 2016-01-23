@@ -1,0 +1,3 @@
+markdown: redcarpate
+baseurl: /the-universe/
+exclude: ['README.md']
