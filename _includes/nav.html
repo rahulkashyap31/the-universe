@@ -1,10 +1,10 @@
 <div class="menu">
   <div class="max-width-960">
     <ul>
-      <li><a href="{{site.baseurl}}/" class="active">Home</a></li>
-      <li><a href="{{site.baseurl}}/solar.html">Solar System</a></li>
-      <li><a href="{{site.baseurl}}/galaxy.html">Galaxies</a></li>
-      <li><a href="{{site.baseurl}}/about.html">About me</a></li>
+      <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+      <li><a href="{{site.baseurl}}/solar.html" class="{% if page.url == '/solar.html' %}active{% endif %}">Solar System</a></li>
+      <li><a href="{{site.baseurl}}/galaxy.html" class="{% if page.url == '/galaxy.html' %}active{% endif %}">Galaxies</a></li>
+      <li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}active{% endif %}">About me</a></li>
     </ul>
   </div>
 </div>
