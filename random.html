@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
-<p>
-  This is the place where we are going to talk a little bit about solar system
-</p>
+<div class="max-width-960">
+  {% for post in site.posts %}
+    <a href="#"><h1>{{random.title}}</h1></a>
+      <span><strong>Date</strong>: {{random.time}} </span> | <span>{{random.author}}</span> | <span>{{random.category}}</span>
+      <p>{{random.meta}}</p>
+  {% endfor %}
+</div>

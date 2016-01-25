@@ -124,13 +124,12 @@ header h1 {
 .banner p {
     color: #eee;
     display: inline-block;
-    margin: 55px 0 0 15px;
+    margin: 55px 0 0 0;
     vertical-align: top;
     font-size: 21px;
     background-color: rgba(255, 255, 255, 0.27);
     padding: 10px 15px;
     border-radius: 5px;
-    text-transform: capitalize;
 }
 .about {
     text-align: center;
