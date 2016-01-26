@@ -1,7 +1,7 @@
 ---
-layout: random
+layout: space
 title: Scientists say a “mirror universe” where time runs backwards could actually exist
-meta: All of us experience time that appears to move in one direction...
+meta: All of us experience time that appears to move in one direction – forward – we age, we have memories from the past but we have no idea what will happen in the future. The concept is defined as the “arrow of time,” which is used to indicate that time is asymmetric – even though most laws of the universe are perfectly symmetric....
 source: http://www.techworm.net/2016/01/scientists-say-mirror-universe-time-runs-backwards-actually-exist.html
 category: Existance
 author: Rahul Kashyap

@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+
 <div class="max-width-960">
-  {% for pos in site.posts %}
-    <a href="#"><h1>{{random.title}}</h1></a>
-      <span><strong>Date</strong>: {{random.time}} </span> | <span>{{random.author}}</span> | <span>{{random.category}}</span>
-      <p>{{random.meta}}</p>
+  {% for news in site.posts %}
+    <article class="">
+      <a href="#"><h1>{{news.title}}</h1></a>
+        <span><strong>Date</strong>: {{news.time}} </span> | <span>{{news.author}}</span> | <span>{{news.category}}</span>
+        <p>{{news.meta}}</p>
+        <small><strong>Source: </strong><a href="{{news.source}}">{{news.source}}</a></small>
+    </article>
+    <hr>
   {% endfor %}
 </div>

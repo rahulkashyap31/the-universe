@@ -1,7 +1,7 @@
 ---
-layout: random
+layout: space
 title: New study says aliens are silent because they are dead
-meta: Aliens are silent because they are dead suggests new theory...
+meta: According to astrobiologists from The Australian National University (ANU), life on other planets would likely be short-lived and become extinct very quickly, thanks to runaway heating or cooling on their young planets...
 source: http://www.techworm.net/2016/01/new-study-says-aliens-silent-dead.html
 category: Existance
 author: Rahul Kashyap
